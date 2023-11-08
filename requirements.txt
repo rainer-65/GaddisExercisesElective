@@ -1,0 +1,4 @@
+googletrans==4.0.0rc1
+PyQt5==5.15.10
+PyQt5_sip==12.13.0
+sympy==1.12
