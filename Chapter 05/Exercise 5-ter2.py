@@ -1,12 +1,11 @@
-# You need to install the package googletrans 4.0.0.rc1 in order to fix a bug
-from googletrans import Translator
+from deep_translator import GoogleTranslator
 
 
 # Define function
 def translate_text(text_from_lang) -> str:
-    translator = Translator()
-    text_to_lang = translator.translate(text_from_lang, dest="english", src="auto")
-    return text_to_lang.text
+    translator = GoogleTranslator()
+    text_to_lang = translator.translate(text_from_lang, target="english", source="auto")
+    return text_to_lang
 
 
 # Read from console
