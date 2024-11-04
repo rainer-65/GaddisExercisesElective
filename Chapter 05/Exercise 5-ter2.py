@@ -8,7 +8,7 @@ def translate_text(text_from_lang) -> str:
     return text_to_lang
 
 
-# Read the source fromthe  console
+# Read the source from the  console
 text_from_lang = input("Please enter a text to translate ('stop' to quit): ")
 
 while text_from_lang != "stop":
